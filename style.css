@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'ied-font';
+  src:  url('fonts/ied-font.eot?hbr4mn');
+  src:  url('fonts/ied-font.eot?hbr4mn#iefix') format('embedded-opentype'),
+    url('fonts/ied-font.ttf?hbr4mn') format('truetype'),
+    url('fonts/ied-font.woff?hbr4mn') format('woff'),
+    url('fonts/ied-font.svg?hbr4mn#ied-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ied-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ied-shortcut-a:before {
+  content: "\e900";
+}
+.ied-shortcut-shift:before {
+  content: "\e902";
+}
+.ied-shortcut-f6:before {
+  content: "\e904";
+}
